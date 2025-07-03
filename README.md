@@ -27,6 +27,7 @@ git clone https://github.com/tuusuario/task-api.git
    - Maven
    - Postman
 4. 📂 Estructura del proyecto
+   ````
    Editar
       └── src
           └── main
@@ -42,12 +43,12 @@ git clone https://github.com/tuusuario/task-api.git
               └── resources
                   ├── application.properties
 
-5.  Notas adicionales
-   El campo createdAt se genera automáticamente usando ZonedDateTime.now() al crear la entidad.
-   La validación se realiza mediante anotaciones como @NotBlank y @Pattern.
-   Se implementan DTOs para desacoplar la capa de presentación del modelo de dominio.
-   La API sigue buenas prácticas y está lista para ser extendida con autenticación o paginación.
-   El proyecto utiliza Spring Data JPA para gestionar la persistencia de datos. La entidad Task está mapeada a una tabla en la base de datos, y se utilizan anotaciones como     @Entity, @Id, @GeneratedValue, @Column, y @PrePersist para definir su comportamiento.
+5. Notas adicionales
+   - El campo createdAt se genera automáticamente usando ZonedDateTime.now() al crear la entidad.
+   - La validación se realiza mediante anotaciones como @NotBlank y @Pattern.
+   - Se implementan DTOs para desacoplar la capa de presentación del modelo de dominio.
+   - La API sigue buenas prácticas y está lista para ser extendida con autenticación o paginación.
+   - El proyecto utiliza Spring Data JPA para gestionar la persistencia de datos. La entidad Task está mapeada a una tabla en la base de datos, y se utilizan anotaciones          como  @Entity, @Id, @GeneratedValue, @Column, y @PrePersist para definir su comportamiento.
 
    
   
