@@ -7,8 +7,10 @@ Una aplicación RESTful para la gestión de tareas, desarrollada con Java y Spri
 ## 🚀 Cómo ejecutar el proyecto
 
 1. **Clona el repositorio:**
+```
+git clone https://github.com/tuusuario/task-api.git
+```
 
-``git clone https://github.com/tuusuario/task-api.git
 2. Asegúrate de tener instalado:
    Java 17 o superior
    Maven
