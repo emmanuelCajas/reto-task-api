@@ -14,7 +14,7 @@ git clone https://github.com/tuusuario/task-api.git
 2. Asegúrate de tener instalado:
    - Java 17 o superior
    - Maven
-   - PostgreSQL o MySQL (o puedes usar H2 para pruebas)
+   - MySQL
 
 3. 🛠️ Tecnologías usadas
    - Java 17
@@ -33,17 +33,27 @@ git clone https://github.com/tuusuario/task-api.git
           └── main
               ├── java
               │   └── com.ecajas.taskapi
-              │       ├── controller        # Controladores REST
-              │       ├── dto              # Clases DTO (Request / Response)
-              │       ├── model            # Entidad JPA: Task
-              │       ├── repository       # Interfaz JpaRepository
+              │       ├── controller       
+              │       ├── dto              
+              │       ├── model            
+              │       ├── repository      
               │       └── service
-              │           ├── impl         # Implementación del servicio
-              │           └── TaskService  # Interfaz de servicio
+              │           ├── impl        
+              │           └── TaskService  
               └── resources
                   ├── application.properties
 
-5. Notas adicionales
+5. Endpoints
+
+   | Método | Ruta          | Descripción                       |
+   |--------|---------------|-----------------------------------|
+   | POST   | `/tasks`      | Crear una nueva tarea             |
+   | GET    | `/tasks`      | Listar todas las tareas           |
+   | GET    | `/tasks/{id}` | Obtener una tarea por su ID       |
+   | PUT    | `/tasks/{id}` | Actualizar una tarea existente    |
+   | DELETE | `/tasks/{id}` | Eliminar una tarea                |
+
+7. Notas adicionales
    - El campo createdAt se genera automáticamente usando ZonedDateTime.now() al crear la entidad.
    - La validación se realiza mediante anotaciones como @NotBlank y @Pattern.
    - Se implementan DTOs para desacoplar la capa de presentación del modelo de dominio.
