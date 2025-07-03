@@ -24,7 +24,7 @@ Una aplicación RESTful para la gestión de tareas, desarrollada con Java y Spri
    Maven
    Postman
 4. 📂 Estructura del proyecto
-   Editar
+   ###Editar
       └── src
           └── main
               ├── java
