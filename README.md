@@ -17,15 +17,15 @@ git clone https://github.com/tuusuario/task-api.git
   - PostgreSQL o MySQL (o puedes usar H2 para pruebas)
 
 3. 🛠️ Tecnologías usadas
-    Java 17
-   Spring Boot
-   Spring Data JPA
-   Spring Validation
-   Lombok
-   DTOs (Data Transfer Objects)
-   REST API
-   Maven
-   Postman
+   - Java 17
+   - Spring Boot
+   - Spring Data JPA
+   - Spring Validation
+   - Lombok
+   - DTOs (Data Transfer Objects)
+   - REST API
+   - Maven
+   - Postman
 4. 📂 Estructura del proyecto
    Editar
       └── src
