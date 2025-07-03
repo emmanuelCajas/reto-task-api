@@ -12,9 +12,9 @@ git clone https://github.com/tuusuario/task-api.git
 ```
 
 2. Asegúrate de tener instalado:
-   Java 17 o superior
-   Maven
-   PostgreSQL o MySQL (o puedes usar H2 para pruebas)
+  - Java 17 o superior
+  - Maven
+  - PostgreSQL o MySQL (o puedes usar H2 para pruebas)
 
 3. 🛠️ Tecnologías usadas
     Java 17
